@@ -77,6 +77,7 @@ class MyDataset(Dataset):
         self.sort_items()
 
     def load_wav(self, filename):
+        print(" | >  load_wav filename: {}".format(filename))
         audio = self.ap.load_wav(filename)
         return audio
 
