@@ -108,7 +108,7 @@ class MyDataset(Dataset):
         return text
 
     def load_data(self, idx):
-        text, wav_file, speaker_name = self.items[idx]
+        wav_file, text, speaker_name = self.items[idx]
         #wav_file = wav_file + ".wav"
         print(" | >  load_data idx: {}".format(idx))
         print(" | >  load_data wav_file: {}".format(wav_file))
