@@ -110,10 +110,10 @@ class MyDataset(Dataset):
     def load_data(self, idx):
         text, wav_file, speaker_name = self.items[idx]
 
-        print(" | >  load_data idx: {}".format(self.items[idx]))
-        print(" | >  load_data wav_file: {}".format(wav_file))
-        print(" | >  load_data text: {}".format(text))
-        print(" | >  load_data speaker_name: {}".format(speaker_name))
+       # print(" | >  load_data idx: {}".format(self.items[idx]))
+      #  print(" | >  load_data wav_file: {}".format(wav_file))
+      #  print(" | >  load_data text: {}".format(text))
+      #  print(" | >  load_data speaker_name: {}".format(speaker_name))
 
 
 
